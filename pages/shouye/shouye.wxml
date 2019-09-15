@@ -1,0 +1,83 @@
+<swiper indicator-dots="{{indicatorDots}}"  
+        autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">  
+      <block  wx:key='' wx:for="{{imgUrls}}">  
+        <swiper-item>  
+           <navigator url="{{item.link}}" hover-class="navigator-hover">  
+            <image src="{{item.url}}" class="slide-image" width="355" height="150"/>  
+           </navigator>   
+        </swiper-item>  
+      </block>  
+</swiper>
+<view class="tishi">
+  <text class="ziti">出去玩之前，先看看</text><text class='nav-hover' style='font-size:32rpx' type="primary" bindtap="switchBtn"> 天气 </text>
+  <text class="ziti">啦</text>
+</view>
+<view class="line"></view>
+
+
+<scroll-view scroll-y="true" style="height:500px;" id="0">
+<flex  bindtap="navigateTo">
+  <view class="item">
+    <view class="left">
+      <view class="type">type</view>
+      <view class="sendTime">sendTime</view>
+    </view>
+    <view class="center">
+      <view class="playDate">playDate</view>
+      <view class="playTime">playTime</view>
+    </view>
+    <view class="right">
+      <view class="place">place</view>
+    </view>
+  </view>
+</flex>
+<view class="line1"></view>
+<flex  bindtap="navigateTo">
+  <view class="item">
+    <view class="left">
+      <view class="type">type</view>
+      <view class="sendTime">sendTime</view>
+    </view>
+    <view class="center">
+      <view class="playDate">playDate</view>
+      <view class="playTime">playTime</view>
+    </view>
+    <view class="right">
+      <view class="place">place</view>
+    </view>
+  </view>
+</flex>
+<view class="line1"></view>
+<flex  bindtap="navigateTo">
+  <view class="item">
+    <view class="left">
+      <view class="type">type</view>
+      <view class="sendTime">sendTime</view>
+    </view>
+    <view class="center">
+      <view class="playDate">playDate</view>
+      <view class="playTime">playTime</view>
+    </view>
+    <view class="right">
+      <view class="place">place</view>
+    </view>
+  </view>
+</flex>
+<view class="line1"></view>
+<flex  bindtap="navigateTo">
+  <view class="item">
+    <view class="left">
+      <view class="type">type</view>
+      <view class="sendTime">sendTime</view>
+    </view>
+    <view class="center">
+      <view class="playDate">playDate</view>
+      <view class="playTime">playTime</view>
+    </view>
+    <view class="right">
+      <view class="place">place</view>
+    </view>
+  </view>
+</flex>
+<view class="line1"></view>
+</scroll-view>  

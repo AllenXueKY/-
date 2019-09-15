@@ -1,0 +1,12 @@
+.f0{
+  font-size :  20px;
+  color: #2F4F4F
+}
+.weather{
+  text-align: center;
+  background-color: #E0FFFF;
+  background-size: 100% 100%
+}
+.f1{
+  font-size: 80px
+}

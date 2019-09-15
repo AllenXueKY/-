@@ -1,0 +1,23 @@
+.word{
+  font-weight:bold;
+  font-size:45px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  position:relative;
+  top:280rpx; 
+}
+.f0{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.btn{
+    width: 80%;
+    color: #999999;
+    top: 300px;
+}
+page {  
+  display: block;  
+  min-height: 100%;  
+  background-color: #00B2EE;  
+}  
+

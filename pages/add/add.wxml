@@ -1,0 +1,43 @@
+<form bindsubmit="formSubmit" bindreset="formReset">   
+<picker bindchange="bindPickerChange" value="{{idex}}" range="{{array}}" >
+<view claa="picker">
+类型：{{array[index]}}
+</view>
+</picker>
+<view class="line1"></view>
+<picker mode="date" value="{{date}}" start="2018-01-01" end="2022-01-01" bindchange="bindDateChange">
+<view claa="picker">
+日期：{{date}}
+</view>
+</picker>
+<view class="line1"></view>
+<picker mode="time" value="{{time}}" start="00:01" end="23:59" bindchange="bindTimeChange">
+<view claa="picker">
+时间：{{time}}
+</view>
+</picker>
+<view class="line1"></view>
+<view>活动地点：{{place}}</view>
+<input type="text" class="input-text" name="place" />   
+<view class="line1"></view>
+<view>活动简介：{{introduce}}</view>
+<input type="text" class="input-text" name="introduce" />   
+<view class="line1"></view>
+<view >
+<button class="btn" type='primary' form-type="submit" bindtap="setform" formType="submit">提交</button>
+</view> 
+</form>
+<!-- 黑框提示并消失 -->  
+    <toast hidden="{{toast1Hidden}}" bindchange="toast1Change">  
+        {{notice_str}}  
+    </toast>  
+    <!-- 确认框 及 提示框 -->  
+    <view class="page__bd">  
+        <modal title="确认" confirm-text="确定" cancel-text="取消" hidden="{{modalHidden}}" mask bindconfirm="confirm_one" bindcancel="cancel_one">  
+            确认提交么？  
+        </modal>  
+        <modal class="modal" hidden="{{modalHidden2}}" no-cancel bindconfirm="modalChange2" bindcancel="modalChange2">  
+            <view> 提示 </view>  
+        </modal>  
+    </view>  
+    

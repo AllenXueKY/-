@@ -1,0 +1,6 @@
+<view class="f0">
+<text class="word" >Play Together</text>
+</view>
+<view>
+<button class="btn" type='primary' form-type="submit" bindtap="jumpToMyPage">请先进行校园认证</button>
+</view>

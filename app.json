@@ -1,0 +1,42 @@
+{
+  "pages":[
+    "pages/denglu/denglu",
+    "pages/add/add",    
+    "pages/shouye/shouye",
+    "pages/yanzheng/yanzheng",
+    "pages/xiangqing/xiangqing",
+    "pages/weather/weather"
+
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "white",
+    "navigationBarTitleText": "Play Together",
+    "navigationBarTextStyle":"black",
+    "backgroundColor":"white",
+    "enablePullDownRefresh":true
+  },
+  "tabBar": {
+        "selectedColor": "#9ACD32",
+        "backgroundColor": "#F3F1EF",
+    "list": [{
+      "pagePath": "pages/shouye/shouye",
+      "text": "首页",
+      "iconPath": "images/shouye.png",
+      "selectedIconPath": "images/shouye1.png"
+    },
+    {
+      "pagePath": "pages/add/add",
+      "text": "",
+      "iconPath": "images/add.png",
+      "selectedIconPath": "images/add1.png"
+    },
+    {
+      "pagePath": "pages/weather/weather",
+      "text": "天气",
+      "iconPath": "images/weather.png",
+      "selectedIconPath": "images/weather1.png"
+    }]
+  }
+
+}

@@ -1,0 +1,7 @@
+.name{
+  font-size: 40rpx
+}
+.sendtime{
+  font-size: 30rpx;
+  color: #9c9c9c
+}

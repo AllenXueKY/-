@@ -1,0 +1,3 @@
+<view class="weather" >
+  <text class="f0">{{weatherData}}</text> 
+</view>

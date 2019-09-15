@@ -1,0 +1,21 @@
+<view>
+<text class="name">username</text>
+</view>
+<view>
+<text class="sendtime">sendtime</text>
+</view>
+<view>
+<text>-\t活动类型\t-:type</text>
+</view>
+<view>
+<text>-\t活动日期\t-：playDate</text>
+</view>
+<view>
+<text> -\t活动时间\t-：playTime</text>
+</view>
+<view>
+<text> -\t地点\t-：place</text>
+</view>
+<view>
+<text>-\t详情介绍\t-：\nintroduce</text>
+</view>

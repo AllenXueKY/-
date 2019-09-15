@@ -1,0 +1,15 @@
+<form bindsubmit="formSubmit" bindreset="formReset">
+  <view class="content">
+    <view class="hr"></view>
+    <view class="item">
+      <input type="text" name="idcardNum" placeholder="请输入一卡通卡号" placeholder-class="holder" maxlength="12" bindblur="accountblur"/>
+    </view>
+    <view class="item">
+      <input type="text" name="college" placeholder="请输入所在学院名称" placeholder-class="holder" />
+    </view>
+    <view class="item">
+      <input type="text" name="class" placeholder="请输入所在班级" placeholder-class="holder"/>
+    </view>
+    <button class="btn" disabled="{{disabled}}" type="{{btnstate}}" form-type="submit">确认并验证</button>
+  </view>
+</form>
